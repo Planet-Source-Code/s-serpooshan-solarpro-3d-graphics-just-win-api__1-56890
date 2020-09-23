@@ -1,0 +1,99 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Work\FRIENDS\saeed\SolarPro\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+E:\Work\FRIENDS\saeed\Graphix3D=
+E:\Work\FRIENDS\saeed\Graphix3D.ocx=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+E:\Work\FRIENDS\saeed\SolarPro\SolarPro.exe=Yes
+D:\WIN98\SYSTEM\MSVBVM60.DLL=Yes
+D:\WIN98\SYSTEM\OLEAUT32.DLL=Yes
+D:\WIN98\SYSTEM\OLEPRO32.DLL=Yes
+D:\WIN98\SYSTEM\ASYCFILT.DLL=Yes
+D:\WIN98\SYSTEM\STDOLE2.TLB=Yes
+D:\WIN98\SYSTEM\COMCAT.DLL=Yes
+D:\WIN98\SYSTEM\TABCTL32.OCX=Yes
+D:\WIN98\SYSTEM\COMDLG32.OCX=Yes
+D:\WIN98\SYSTEM\MSFLXGRD.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\Work\FRIENDS\saeed\Graphix3D.ocx=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+E:\Work\FRIENDS\saeed\SolarPro\SolarPro.exe=$(AppPath)
+D:\WIN98\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\WIN98\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\WIN98\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\WIN98\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\WIN98\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\WIN98\SYSTEM\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WIN98\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+D:\WIN98\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+D:\WIN98\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+E:\Work\FRIENDS\saeed\Graphix3D=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\Work\FRIENDS\saeed\Graphix3D.ocx=$(WinSysPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+E:\Work\FRIENDS\saeed\SolarPro\SolarPro.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=SolarPro
+
+[Package|Standard Setup Package 1|SolarPro]
+Icon1=SolarPro.exe
+Title1=SolarPro
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=E:\Work\FRIENDS\saeed\SolarPro\Package
+ProjectFolder=E:\Work\FRIENDS\saeed\SolarPro
+ServerSideCab=
+File1=E:\Work\FRIENDS\saeed\SolarPro\Package\setup.exe
+File2=E:\Work\FRIENDS\saeed\SolarPro\Package\Setup.Lst
+File3=E:\Work\FRIENDS\saeed\SolarPro\Package\SolarPro.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=SolarPro
+PrivateGroup0=True
+Parent0=$(Programs)
